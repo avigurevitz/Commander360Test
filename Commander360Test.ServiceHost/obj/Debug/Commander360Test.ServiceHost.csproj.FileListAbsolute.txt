@@ -1,0 +1,10 @@
+C:\Users\USER\Documents\Visual Studio 2015\Projects\GithubRepositories\Commander360Test\Commander360Test.ServiceHost\bin\Debug\Commander360Test.ServiceHost.exe.config
+C:\Users\USER\Documents\Visual Studio 2015\Projects\GithubRepositories\Commander360Test\Commander360Test.ServiceHost\bin\Debug\Commander360Test.ServiceHost.exe
+C:\Users\USER\Documents\Visual Studio 2015\Projects\GithubRepositories\Commander360Test\Commander360Test.ServiceHost\bin\Debug\Commander360Test.ServiceHost.pdb
+C:\Users\USER\Documents\Visual Studio 2015\Projects\GithubRepositories\Commander360Test\Commander360Test.ServiceHost\bin\Debug\Commander360Test.Service.dll
+C:\Users\USER\Documents\Visual Studio 2015\Projects\GithubRepositories\Commander360Test\Commander360Test.ServiceHost\bin\Debug\Commander360Test.Common.dll
+C:\Users\USER\Documents\Visual Studio 2015\Projects\GithubRepositories\Commander360Test\Commander360Test.ServiceHost\bin\Debug\Commander360Test.Service.pdb
+C:\Users\USER\Documents\Visual Studio 2015\Projects\GithubRepositories\Commander360Test\Commander360Test.ServiceHost\bin\Debug\Commander360Test.Common.pdb
+C:\Users\USER\Documents\Visual Studio 2015\Projects\GithubRepositories\Commander360Test\Commander360Test.ServiceHost\obj\Debug\Commander360Test.ServiceHost.csprojResolveAssemblyReference.cache
+C:\Users\USER\Documents\Visual Studio 2015\Projects\GithubRepositories\Commander360Test\Commander360Test.ServiceHost\obj\Debug\Commander360Test.ServiceHost.exe
+C:\Users\USER\Documents\Visual Studio 2015\Projects\GithubRepositories\Commander360Test\Commander360Test.ServiceHost\obj\Debug\Commander360Test.ServiceHost.pdb

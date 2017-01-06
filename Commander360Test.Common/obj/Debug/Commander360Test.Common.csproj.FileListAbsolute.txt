@@ -1,0 +1,5 @@
+C:\Users\USER\Documents\Visual Studio 2015\Projects\GithubRepositories\Commander360Test\Commander360Test.Common\bin\Debug\Commander360Test.Common.dll
+C:\Users\USER\Documents\Visual Studio 2015\Projects\GithubRepositories\Commander360Test\Commander360Test.Common\bin\Debug\Commander360Test.Common.pdb
+C:\Users\USER\Documents\Visual Studio 2015\Projects\GithubRepositories\Commander360Test\Commander360Test.Common\obj\Debug\Commander360Test.Common.csprojResolveAssemblyReference.cache
+C:\Users\USER\Documents\Visual Studio 2015\Projects\GithubRepositories\Commander360Test\Commander360Test.Common\obj\Debug\Commander360Test.Common.dll
+C:\Users\USER\Documents\Visual Studio 2015\Projects\GithubRepositories\Commander360Test\Commander360Test.Common\obj\Debug\Commander360Test.Common.pdb

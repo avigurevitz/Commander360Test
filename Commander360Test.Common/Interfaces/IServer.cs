@@ -13,5 +13,9 @@ namespace Commander360Test.Common.Interfaces
         [FaultContract(typeof(UserNotFoundFault))]
         [OperationContract]
         void Start();
+
+        [FaultContract(typeof(UserNotFoundFault))]
+        [OperationContract]
+        void Stop();
     }
 }

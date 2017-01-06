@@ -1,0 +1,6 @@
+C:\Users\USER\Documents\Visual Studio 2015\Projects\GithubRepositories\Commander360Test\Commander360Test.Console\bin\Debug\Commander360Test.Console.exe.config
+C:\Users\USER\Documents\Visual Studio 2015\Projects\GithubRepositories\Commander360Test\Commander360Test.Console\bin\Debug\Commander360Test.Console.exe
+C:\Users\USER\Documents\Visual Studio 2015\Projects\GithubRepositories\Commander360Test\Commander360Test.Console\bin\Debug\Commander360Test.Console.pdb
+C:\Users\USER\Documents\Visual Studio 2015\Projects\GithubRepositories\Commander360Test\Commander360Test.Console\obj\Debug\Commander360Test.Console.csprojResolveAssemblyReference.cache
+C:\Users\USER\Documents\Visual Studio 2015\Projects\GithubRepositories\Commander360Test\Commander360Test.Console\obj\Debug\Commander360Test.Console.exe
+C:\Users\USER\Documents\Visual Studio 2015\Projects\GithubRepositories\Commander360Test\Commander360Test.Console\obj\Debug\Commander360Test.Console.pdb

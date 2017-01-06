@@ -70,6 +70,15 @@ namespace Commander360Test.Service
 
         #endregion
 
+        #region Stop
+
+        public void Stop()
+        {
+            throw new NotImplementedException();
+        }
+
+        #endregion
+
         #endregion
 
         #region OnTimerOnElapsed

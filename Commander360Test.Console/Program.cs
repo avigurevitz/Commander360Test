@@ -1,11 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.ServiceModel;
-using System.Text;
 using System.Threading;
-using System.Threading.Tasks;
-using Commander360Test.Console.ServiceReference;
+using Commander360Test.Common.Faults;
 
 namespace Commander360Test.Console
 {
@@ -13,7 +9,9 @@ namespace Commander360Test.Console
     {
         static void Main(string[] args)
         {
-            var client = new ServerClient(new InstanceContext(new ClientLogic()));
+            var binding = new NetTcpBinding();
+            var endpoint = new EndpointAddress("net.tcp://localhost:8080/Service");
+            var client = new ServerClient(new InstanceContext(new ClientLogic()), binding, endpoint);
             try
             {
                 client.Login("avi", "123456");
