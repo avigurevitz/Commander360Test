@@ -13,6 +13,7 @@ namespace Commander360Test.Client
         public event Action<double> OnDataUpdated;
         public event Action<byte[]> OnStreamReceived;
         private const string NET_TCP_ENDPOINT_ADDRESS = "net.tcp://{0}:8080/Service";
+        private const string WSDUAL_HTTP_ENDPOINT_ADDRESS = "http://{0}:8081/Service";
         private readonly IViewManager _viewManager;
         private ServerClient _serverClient;
         private Guid _sessionKey;
@@ -28,8 +29,10 @@ namespace Commander360Test.Client
         #region Login
         public void Login(string userName, string password, string IP)
         {
-            var binding = new NetTcpBinding();
-            var endpoint = new EndpointAddress(string.Format(NET_TCP_ENDPOINT_ADDRESS, IP));
+            //var binding = new NetTcpBinding();
+            //var endpoint = new EndpointAddress(string.Format(NET_TCP_ENDPOINT_ADDRESS, IP));
+            var binding = new WSDualHttpBinding();
+            var endpoint = new EndpointAddress(string.Format(WSDUAL_HTTP_ENDPOINT_ADDRESS, IP));
             _serverClient = new ServerClient(new InstanceContext(this), binding, endpoint);
 
             _sessionKey = _serverClient.Login(userName, password);

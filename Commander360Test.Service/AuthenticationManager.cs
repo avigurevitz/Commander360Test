@@ -39,7 +39,7 @@ namespace Commander360Test.Service
         #region Login
         public Guid Login(string userName, string password)
         {
-            if (_users.ContainsKey(userName) == false || _users[userName] != password)
+            if (_users.ContainsKey(userName.ToLower()) == false || _users[userName].ToLower() != password)
                 throw new FaultException<UserNotFoundFault>(new UserNotFoundFault());
 
             var sessionKey = Guid.NewGuid();

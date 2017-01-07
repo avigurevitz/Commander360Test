@@ -17,10 +17,7 @@ namespace Commander360Test.Client.Shell
 
         public ShellViewModel()
         {
-            var binding = new NetTcpBinding();
-            var endpoint = new EndpointAddress("net.tcp://localhost:8080/Service");
             _logic = new ClientLogic(this);
-            var client = new ServerClient(new InstanceContext(_logic), binding, endpoint);
         }
 
         public void LoggedIn()
