@@ -42,7 +42,7 @@ namespace Commander360Test.Service
             if (_users.ContainsKey(userName) == false || _users[userName] != password)
                 throw new FaultException<UserNotFoundFault>(new UserNotFoundFault());
 
-            var sessionKey = new Guid();
+            var sessionKey = Guid.NewGuid();
             _loggedOn.Add(sessionKey, DateTime.Now);
             return sessionKey;
         }

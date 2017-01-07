@@ -17,7 +17,7 @@ namespace Commander360Test.Console
                 var sessionkey = client.Login("avi", "123456");
                 client.Start(sessionkey);
                 Thread.Sleep(5000);
-                client.Stop(sessionkey);
+                client.Stop(Guid.NewGuid());
                 Thread.Sleep(5000);
                 client.Start(sessionkey);
                 Thread.Sleep(5000);

@@ -58,7 +58,7 @@ namespace Commander360Test.Service
         public Guid Login(string userName, string password)
         {
             var sessionKey = _authenticationManager.Login(userName, password);
-            _timer.Enabled = true;
+            //_timer.Enabled = true;
             _context = OperationContext.Current;
             return sessionKey;
         }
