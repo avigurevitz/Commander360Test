@@ -58,7 +58,7 @@ namespace Commander360Test.Service
         public Guid Login(string userName, string password)
         {
             var sessionKey = _authenticationManager.Login(userName, password);
-            //_timer.Enabled = true;
+            _timer.Enabled = true;
             _context = OperationContext.Current;
             return sessionKey;
         }
@@ -93,14 +93,16 @@ namespace Commander360Test.Service
 
         private void OnTimerOnElapsed(object sender, ElapsedEventArgs elapsedEventArgs)
         {
-            if (_context.Channel.State == CommunicationState.Closed)
+            if (_context == null || _context.Channel == null || _context.Channel.State == CommunicationState.Closed)
             {
                 _context = null;
+                _timer.Enabled = false;
                 return;
             }
 
-            Console.WriteLine("{0} -- {1}", DateTime.Now, _context.SessionId);
-            Callback.UpdateData(new Random().Next(1000));
+            var num = new Random().Next(1000);
+            Callback.UpdateData(num);
+            Console.WriteLine("{0} -- {1}", DateTime.Now, num);
         }
 
         #endregion
@@ -109,7 +111,7 @@ namespace Commander360Test.Service
 
         private void OnStreamTimerElapsed(object sender, ElapsedEventArgs e)
         {
-            if (_context == null || _context.Channel == null ||  _context.Channel.State == CommunicationState.Closed)
+            if (_context == null || _context.Channel == null || _context.Channel.State == CommunicationState.Closed)
             {
                 _context = null;
                 _streamTimer.Enabled = false;

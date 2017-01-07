@@ -25,3 +25,7 @@ C:\Users\USER\Documents\Visual Studio 2015\Projects\GithubRepositories\Commander
 C:\Users\USER\Documents\Visual Studio 2015\Projects\GithubRepositories\Commander360Test\Commander360Test.Client\obj\Debug\Shell\ShellView.baml
 C:\Users\USER\Documents\Visual Studio 2015\Projects\GithubRepositories\Commander360Test\Commander360Test.Client\obj\Debug\GeneratedInternalTypeHelper.g.cs
 C:\Users\USER\Documents\Visual Studio 2015\Projects\GithubRepositories\Commander360Test\Commander360Test.Client\obj\Debug\App.baml
+C:\Users\USER\Documents\Visual Studio 2015\Projects\GithubRepositories\Commander360Test\Commander360Test.Client\obj\Debug\Main\MainView.g.cs
+C:\Users\USER\Documents\Visual Studio 2015\Projects\GithubRepositories\Commander360Test\Commander360Test.Client\obj\Debug\Main\MainView.baml
+C:\Users\USER\Documents\Visual Studio 2015\Projects\GithubRepositories\Commander360Test\Commander360Test.Client\obj\Debug\Login\LoginView.g.cs
+C:\Users\USER\Documents\Visual Studio 2015\Projects\GithubRepositories\Commander360Test\Commander360Test.Client\obj\Debug\Login\LoginView.baml
