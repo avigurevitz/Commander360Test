@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="Faults\BaseFault.cs" />
     <Compile Include="Faults\UserNotFoundFault.cs" />
+    <Compile Include="Interfaces\IAuthentication.cs" />
     <Compile Include="Interfaces\IClientCallback.cs" />
     <Compile Include="Interfaces\IServer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

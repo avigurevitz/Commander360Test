@@ -14,9 +14,14 @@ namespace Commander360Test.Console
             var client = new ServerClient(new InstanceContext(new ClientLogic()), binding, endpoint);
             try
             {
-                client.Login("avi", "123456");
+                var sessionkey = client.Login("avi", "123456");
+                client.Start(sessionkey);
                 Thread.Sleep(5000);
-                client.Start();
+                client.Stop(sessionkey);
+                Thread.Sleep(5000);
+                client.Start(sessionkey);
+                Thread.Sleep(5000);
+                client.Stop(sessionkey);
             }
             catch (FaultException<UserNotFoundFault> fault)
             {

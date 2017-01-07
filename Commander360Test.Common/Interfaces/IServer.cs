@@ -1,4 +1,5 @@
-﻿using System.ServiceModel;
+﻿using System;
+using System.ServiceModel;
 using Commander360Test.Common.Faults;
 
 namespace Commander360Test.Common.Interfaces
@@ -8,14 +9,14 @@ namespace Commander360Test.Common.Interfaces
     {
         [FaultContract(typeof(UserNotFoundFault))]
         [OperationContract]
-        void Login(string userName, string password);
+        Guid Login(string userName, string password);
 
         [FaultContract(typeof(UserNotFoundFault))]
         [OperationContract]
-        void Start();
+        void Start(Guid sessionKey);
 
         [FaultContract(typeof(UserNotFoundFault))]
         [OperationContract]
-        void Stop();
+        void Stop(Guid sessionKey);
     }
 }

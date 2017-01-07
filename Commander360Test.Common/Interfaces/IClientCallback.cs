@@ -8,5 +8,8 @@ namespace Commander360Test.Common.Interfaces
     {
         [OperationContract(IsOneWay = true)]
         void UpdateData(double result);
+
+        [OperationContract(IsOneWay = true)]
+        void UploadData(byte[] buffer);
     }
 }
